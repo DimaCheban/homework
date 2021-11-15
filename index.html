@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ДЗ 7</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="#" class="form">
+
+            <div class="block1">
+                <label for="choise">
+            Type <span>*</span><br>
+            <select class="weight"  id="choise" name="choisee"  required>
+                <option value="">Tractor </option>
+                <option value="car">Car</option>
+                <option value="cicle">Cicle</option>
+            </select>
+        </label><br>
+                <label for="subtype"> SubType <span>*</span><br>
+            <input class="weight" type="text" name="subtypee" id="subtype" value="Fake" required></label>
+                <br>
+                <label for="specs">  Specs <br>
+               </label>
+                <input class="weight" type="text" name="specss" id="specs" value="Nullam porttitor lacus at trupis.Do...">
+                <br>
+                <label for="driver"> Driver <br>
+                <select class="color2block" id="driver" name="driverr">
+                <option value="" disabled selected> Select </option>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select>
+        </label>
+            </div>
+            <div class="block2">
+                <label for="number"> Vehicle ID Number (VIN) <span>*</span> <br>
+            <input class="weight" name="numberr" id="number" type="text" value="WBA3A5C50123" required ></label>
+                <br>
+                <label for="make"> Make <span>*</span><br>
+            <input class="weight" name="makee" id="make" type="text" value="Fake" required ></label>
+                <br> <label for="model"> Model <span>*</span><br>
+            <input class="weight" type="text" name="modell" id="model" value="Fake" required></label>
+
+                <div class="fixpossition">
+                    <div class="dataand">
+                        <label for="year"> Year <span>*</span><br>
+                    <input class="size1 weight" name="yaerr" id="year" type="text" value="2008" required ></label>
+                    </div>
+                    <div class="dataand">
+                        <label for="gvw"> GVW <span>*</span><br>
+                    <input class="size1 weight" name="gvww"  id="gvw" type="text" value="20092" required ></label>
+                    </div>
+
+                    <div class="dataand">
+                        <label for="unit">
+                    Unit <span>*</span> <br>
+                    <select class="size1 weight" id="unit"  name="data" required>
+                    <option value="">LBS</option>
+                    <option value="">BTS</option>
+                    <option value="">STB</option>
+                </select>
+            </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="block3">
+                <label for="plate">
+            License Plate <span>*</span><br>
+            <input class="weight" name="platee" id="plate" type="text" value="XK-H-2ASDASD" required></label> <br> Port Pass RFID <br>
+
+                <div class="parent">
+                    <input class="color2block" type="text" placeholder="Type here">
+
+                    <div class="child"> <input type="checkbox">
+                    </div>
+                </div>
+                <label for="ownership">
+            Ownership <span>*</span><br>
+            <select class="weight" id="ownership" name="owned" required>
+                <option value="">Owned</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select> </label > <br> 
+            <label for="truck-type">
+            Truck Type <br>
+                <select class="weight" id="truck-type" name="trucktype">
+                <option value="">Sleeper</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                
+            </select>
+        </label>
+            </div>
+            <div class="block4">
+                <h2>Registration</h2><br>
+
+                <label for="state"> State <span>*</span> </label> <br>
+
+                <select class="weight" id="state" name="statee" required>
+                <option  value="">AL-Alabama</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select> <br>
+                <label for="date"> Date <span>*</span><br>
+            <input class="weight" name="datee" id="date" type="text" value="09/01/2018" required>
+        </label>
+                <div class="blockinblock">
+                    <div class="inlineblock ">
+                        <label for="gvw2">GVW <span>*</span><br>
+                    <input class="size2 weight" name="gvww2" id="gvw2" type="text" value="42283" required> </label> </div>
+
+                    <div class="inlineblock ">
+                        <label for="unit2">
+                    Unit <span>*</span>
+                    <select class="size2 weight"  name="unitt2" id="unit2" required>
+                    <option value="">KGS</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </label>
+                    </div>
+                </div>
+            </div>
+            <div class="block5">
+                <label for="restrictions">
+            Restrictions <span>*</span> <br>
+            <select class="weight" name="restrictionss" id="restrictions" required>
+                <option value="">Higway</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+        </label>
+                <br> <label for="expd"> Exp. Date <span>*</span><br>
+            <input class="weight" name="expdd" id="expd" type="text" value="05/25/2018" required>
+        </label>
+                <br> Doc.Image <br>
+                <div class="margin"> <label class="button"> Upload
+            <input class="upload" type="file">
+        </label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

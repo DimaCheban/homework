@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+
+span {
+    color: red;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 25px;
+    width: 215px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 25px;
+}
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 25px;
+}
+
+.block5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 25px;
+}
+
+select {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    padding: 7px 5px;
+    width: 215px;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    padding: 7px 5px;
+    width: 215px;
+}
+
+input::placeholder {
+    padding-left: 25px;
+}
+
+h2 {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.inlineblock {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.size2 {
+    width: 70px;
+}
+
+.size1 {
+    width: 68px;
+}
+
+.dataand {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+
+.color2block {
+    background-color: #f5f6fa;
+}
+
+.upload {
+    display: none;
+}
+
+.button {
+    background-color: blue;
+    font-size: 35px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.weight {
+    font-weight: 600;
+}
+
+.parent {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.child {
+    position: absolute;
+    top: 6px;
+    right: 90px;
+}
+
+.blockinblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fixpossition {
+    display: flex;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@media(max-width: 1312px) {
+    .form {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 1155px) {
+    .form {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 806px) {
+    .form {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 563px) {
+    .form {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+
+@media(max-width:1920px) {
+    .wrapper {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
