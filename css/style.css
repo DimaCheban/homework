@@ -120,6 +120,10 @@
                 max-width: 100%;
                 margin-left: 0;
             }
+            .intro-img {
+                max-width: 100%;
+                margin: 0;
+            }
         }
         
         @media(max-width:900px) {
@@ -140,6 +144,12 @@
             }
         }
         
+        @media(max-width:645px) {
+            .main-heading {
+                width: 550px;
+            }
+        }
+        
         @media(max-width:600px) {
             .text {
                 font-size: 14px;
@@ -156,7 +166,7 @@
                 max-width: 100%;
             }
             .main-heading {
-                width: 540px;
+                width: 450px;
             }
             .intro-form-text {
                 padding: 12px;
@@ -196,8 +206,8 @@
                 display: none;
             }
             .main-heading {
-                width: 340px;
-                font-size: 22px;
+                width: 300px;
+                font-size: 24px;
             }
             .wrapper-img {
                 margin-top: 50px;
